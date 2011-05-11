@@ -8,7 +8,7 @@ class SpecialShareThis extends SpecialPage {
  
   function execute( $par ) {
     global $wgRequest, $wgOut;
-    $wgOut->setPagetitle("Share This!");
+    $wgOut->setPagetitle("Share This"!);
     $this->setHeaders();
     $output="Hello world!";
     $wgOut->addWikiText( $output );
