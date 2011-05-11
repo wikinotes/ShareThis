@@ -1,0 +1,12 @@
+Mediawiki extension that will allow users to share a page via twitter (to start with)
+
+Setup:
+
+1. Copy files to .../mediawiki/extensions/ShareThis
+2. add `require_once("extensions/ShareThis/ShareThis.php"); ` to LocalSettings.php
+3. ???
+
+
+Author: Wesley Ellis
+Contact: tahnok@gmail.com
+
