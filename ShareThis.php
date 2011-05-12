@@ -34,7 +34,6 @@ function Test2( &$monobook ) {
 function workDamnIt( &$skintemplate, &$nav_urls, &$oldid, &$revid ) {
 #uncomment this when we have multi-lang support
 #  wfLoadExtensionMessages( 'ShareThis' );
-  global $wgHasTwitterAccount;
   global $wgTwitterUserName;
 
   $title = Title::newFromText(wfUrlEncode("{$skintemplate->thispage}"));
