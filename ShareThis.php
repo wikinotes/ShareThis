@@ -10,9 +10,9 @@ $wgExtensionCredits['specialpage'][] = array(
 	     'name' => 'ShareThis',
 	     'author' =>'Wesley Ellis', 
 	     'url' => 'http://appropedia.org/User:Tahnok', 
-	     'description' => 'This will share shit',
-	     'descriptionmsg' => 'myextension-desc',
-	     'version' => 0
+	     'description' => 'This will add a tweet page link to your toolbox',
+	     'descriptionmsg' => 'This will add a tweet page link to your toolbox',
+	     'version' => 1
 	     );
 $dir = dirname(__FILE__) . '/';
  
